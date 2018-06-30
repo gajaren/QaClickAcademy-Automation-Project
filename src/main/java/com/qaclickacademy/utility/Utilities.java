@@ -14,6 +14,7 @@ public class Utilities {
 	public static long PAGE_LOAD_TIMEOUTS=10;
 	public static long IMPLICIT_WAIT=20;
 	public static XSSFWorkbook workbook;
+	public static XSSFSheet sheet;
 	public static String path="C:\\Users\\Nilesh\\workspace\\QAClickAcademy\\src\\main\\"
 			+ "java\\com\\qaclickacademy\\testdata\\TestData.xlsx";
 	
@@ -21,7 +22,7 @@ public class Utilities {
 	public static Object[][] readExcelFile(String sheetname) throws IOException 
 	{
 		workbook=new XSSFWorkbook(path);
-		XSSFSheet sheet=workbook.getSheet(sheetname);
+		sheet=workbook.getSheet(sheetname);
 				
 		int totalrows=sheet.getLastRowNum();
 		int totalcol=sheet.getRow(0).getLastCellNum();
