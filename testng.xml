@@ -7,11 +7,11 @@
 	<listener class-name="com.qaclickacademy.utility.WebEventListener"/>
 </listeners>
 
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
       <class name="com.qaclickacademy.tests.LoginTest"/>
-      <class name="com.qaclickacademy.tests.PracticeTest"/>
-      <class name="com.qaclickacademy.tests.HomeTest"/>
+     <!--  <class name="com.qaclickacademy.tests.PracticeTest"/>
+      <class name="com.qaclickacademy.tests.HomeTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

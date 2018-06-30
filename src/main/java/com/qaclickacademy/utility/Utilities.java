@@ -38,11 +38,11 @@ public class Utilities {
 		return data;
 	}
 	
-	public static void takeScreenshots(WebDriver driver) throws IOException
+	public static void takeScreenshots(WebDriver driver,String testname ) throws IOException
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
-		File dest=new File("C:\\Users\\Nilesh\\workspace\\QAClickAcademy\\Screenshots\\" + System.currentTimeMillis() + ".png");
+		File dest=new File("C:\\Users\\Nilesh\\workspace\\QAClickAcademy\\Screenshots\\" + testname + ".png");
 		FileHandler.copy(src, dest);
 	}
 

@@ -10,7 +10,7 @@
   <name>QAClickAcademy</name>
   <url>http://maven.apache.org</url>
 
-	<!-- <build>
+	<build>
 	<pluginManagement>
 	<plugins>
      <plugin>
@@ -26,7 +26,7 @@
     
 	</plugins>
 	</pluginManagement>
-	</build> -->
+	</build>
   	
   	<properties>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
