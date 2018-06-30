@@ -1,0 +1,8 @@
+com\qaclickacademy\utility\WebEventListener.class
+com\qaclickacademy\pages\Coursepage.class
+com\qaclickacademy\baseclass\BaseTest.class
+com\qaclickacademy\pages\Loginpage.class
+com\qaclickacademy\pages\Homepage.class
+com\qaclickacademy\utility\ExtentReporterNG.class
+com\qaclickacademy\utility\Utilities.class
+com\qaclickacademy\pages\Practicepage.class
