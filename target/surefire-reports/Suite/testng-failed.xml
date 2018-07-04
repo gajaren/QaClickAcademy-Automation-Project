@@ -4,6 +4,7 @@
   <listeners>
     <listener class-name="com.qaclickacademy.utility.ExtentReporterNG"/>
     <listener class-name="com.qaclickacademy.utility.WebEventListener"/>
+    <listener class-name="com.qaclickacademy.utility.RetryListener"/>
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>

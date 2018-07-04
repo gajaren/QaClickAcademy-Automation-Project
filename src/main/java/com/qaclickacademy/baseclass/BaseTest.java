@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.log4testng.Logger;
 
 import com.qaclickacademy.utility.Utilities;
 import com.qaclickacademy.utility.WebEventListener;
@@ -20,7 +21,8 @@ public class BaseTest {
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventlistener;
-	
+	//public static Logger log=Logger.getLogger(BaseTest.class);
+			
 	public BaseTest()
 	{
 		try {
@@ -40,6 +42,7 @@ public class BaseTest {
 	{
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome"))
 		{
+			//log.info("Launching CHORME BOWSER");
 			System.setProperty("webdriver.chrome.driver", prop.getProperty("user.dir")+"\\QAClickAcademy\\src\\main\\java\\com\\"
 			+"qaclickacademy\\config\\chromedriver.exe");
 			driver=new ChromeDriver();

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 156.313 s <<< FAILURE! - in TestSuite
-InvalidLoginTest(com.qaclickacademy.tests.LoginTest)  Time elapsed: 76.508 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 256.332 s <<< FAILURE! - in TestSuite
+InvalidLoginTest(com.qaclickacademy.tests.LoginTest)  Time elapsed: 19.622 s  <<< FAILURE!
 org.openqa.selenium.InvalidSelectorException: 
 invalid selector: Unable to locate an element with the xpath expression //div[contains(text(),'Invalid']) because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(text(),'Invalid'])' is not a valid XPath expression.
@@ -14,7 +14,7 @@ Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.1
 System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: 8984f06f8bf0cf94cdd56ff1b2ee5b7e
+Session ID: 41bbc0e0085bbaa76bf44bc11efea800
 *** Element info: {Using=xpath, value=//div[contains(text(),'Invalid'])}
-	at com.qaclickacademy.tests.LoginTest.InvalidLoginTest(LoginTest.java:38)
+	at com.qaclickacademy.tests.LoginTest.InvalidLoginTest(LoginTest.java:41)
 

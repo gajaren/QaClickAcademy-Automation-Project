@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qaclickacademy.utility.ExtentReporterNG"/>
+    <listener class-name="com.qaclickacademy.utility.WebEventListener"/>
+    <listener class-name="com.qaclickacademy.utility.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.qaclickacademy.tests.LoginTest">
         <methods>
@@ -11,5 +16,5 @@
         </methods>
       </class> <!-- com.qaclickacademy.tests.LoginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

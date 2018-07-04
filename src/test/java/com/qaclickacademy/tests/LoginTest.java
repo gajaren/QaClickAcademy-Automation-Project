@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.log4testng.Logger;
 
 import com.qaclickacademy.baseclass.BaseTest;
 import com.qaclickacademy.pages.Homepage;
@@ -13,6 +14,7 @@ public class LoginTest extends BaseTest{
 	
 	Homepage homepage;
 	Loginpage loginpage;
+	Logger log=Logger.getLogger(LoginTest.class);
 	
 	public LoginTest()
 	{
@@ -30,6 +32,7 @@ public class LoginTest extends BaseTest{
 	@Test
 	public void InvalidLoginTest()
 	{
+		log.info("Clicking no thanks button");
 		homepage.clickNoThanksbtn();
 		loginpage=homepage.clickLoginbtn();
 		loginpage.enterUserEmail(prop.getProperty("username"));
