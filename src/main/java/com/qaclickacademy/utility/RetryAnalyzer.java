@@ -7,7 +7,7 @@ public class RetryAnalyzer implements IRetryAnalyzer{
 
 	
 	int counter=0;
-	int retrylimit=3;
+	int retrylimit=2;
 	
 	public boolean retry(ITestResult result) {
 		// TODO Auto-generated method stub

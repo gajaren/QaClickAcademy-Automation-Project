@@ -16,6 +16,8 @@ public class HomeTest extends BaseTest{
 	Loginpage loginpage;
 	Practicepage practicepage;
 	
+	public static final String LOGIN_PAGE_ERROR = "Could not direct to login page";
+	
 	public HomeTest()
 	{
 		super();
@@ -34,13 +36,14 @@ public class HomeTest extends BaseTest{
 	public void clickLoginbtnTest()
 	{
 		loginpage=homepage.clickLoginbtn();
-		Assert.assertTrue(loginpage.logInTextIsDisplayed(),"Could not redirect to Login page!");
+		Assert.assertTrue(loginpage.logInTextIsDisplayed(),LOGIN_PAGE_ERROR);
 	}
 	
 	@Test (priority=2)
 	public void clickPracticeLinkTest()
 	{
 		practicepage=homepage.clickPracticeLink();
+		Assert.assertEquals(BaseTest.driver.getTitle(),"Practice Page");
 	}
 	
 	@AfterMethod

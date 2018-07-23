@@ -22,18 +22,21 @@ public class Practicepage extends BaseTest{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void enterCountryName(String country)
+	public String enterCountryName(String country)
 	{
 		countryTextField.sendKeys(country);
+		return countryTextField.getText();
 	}
 	
-	public void enterCustName(String custname)
+	public String enterCustName(String custname)
 	{
 		nameTextField.sendKeys(custname);
+		return nameTextField.getText();
 	}
 	
-	public void enterShowHide(String showhide)
+	public String enterShowHide(String showhide)
 	{
 		showHideField.sendKeys(showhide);
+		return showHideField.getText();
 	}
 }

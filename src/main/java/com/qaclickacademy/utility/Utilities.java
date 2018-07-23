@@ -2,6 +2,8 @@ package com.qaclickacademy.utility;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -15,8 +17,9 @@ public class Utilities {
 	public static long IMPLICIT_WAIT=20;
 	public static XSSFWorkbook workbook;
 	public static XSSFSheet sheet;
-	public static String path="C:\\Users\\Nilesh\\workspace\\QAClickAcademy\\src\\main\\"
+	public static String path=System.getProperty("user.home") + "\\workspace\\QAClickAcademy\\src\\main\\"
 			+ "java\\com\\qaclickacademy\\testdata\\TestData.xlsx";
+	public static String dateTime = new SimpleDateFormat("yyyymmddhhmmss").format(new Date());
 	
 	
 	public static Object[][] readExcelFile(String sheetname) throws IOException 
@@ -42,7 +45,7 @@ public class Utilities {
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
-		File dest=new File("C:\\Users\\Nilesh\\workspace\\QAClickAcademy\\Screenshots\\" + testname + ".png");
+		File dest=new File(System.getProperty("user.home") + "\\workspace\\QAClickAcademy\\Screenshots\\" + testname + dateTime + ".png");
 		FileHandler.copy(src, dest);
 	}
 

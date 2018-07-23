@@ -21,13 +21,13 @@ public class BaseTest {
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventlistener;
-	//public static Logger log=Logger.getLogger(BaseTest.class);
+	
 			
 	public BaseTest()
 	{
 		try {
 			prop=new Properties();
-			FileInputStream fs=new FileInputStream("C:/Users/Nilesh/workspace/QAClickAcademy/src/main/java/com/qaclickacademy/config/config.properties");
+			FileInputStream fs=new FileInputStream(System.getProperty("user.home") + "/workspace/QAClickAcademy/src/main/java/com/qaclickacademy/config/config.properties");
 			prop.load(fs);
 		} catch (FileNotFoundException e) {
 			System.out.println("Config.properties file is NOT found");
@@ -43,13 +43,13 @@ public class BaseTest {
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome"))
 		{
 			//log.info("Launching CHORME BOWSER");
-			System.setProperty("webdriver.chrome.driver", prop.getProperty("user.dir")+"\\QAClickAcademy\\src\\main\\java\\com\\"
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.home") + "\\workspace\\QAClickAcademy\\src\\main\\java\\com\\"
 			+"qaclickacademy\\config\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else if(prop.getProperty("browser").equalsIgnoreCase("firefox")) 
 		{
-			System.setProperty("webdriver.gecko.driver", prop.getProperty("user.dir")+"\\QAClickAcademy\\src\\main\\java\\com\\"
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.home") + "\\workspace\\QAClickAcademy\\src\\main\\java\\com\\"
 			+"qaclickacademy\\config\\firefoxdriver.exe");
 			driver=new FirefoxDriver();
 		}

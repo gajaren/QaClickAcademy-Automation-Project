@@ -128,8 +128,9 @@ public class WebEventListener extends BaseTest implements WebDriverEventListener
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
+		System.out.println("*****************Taking screen shot***********************");
 		try{
-			Utilities.takeScreenshots(driver,result.getTestName());
+			Utilities.takeScreenshots(driver,result.getName());
 		}catch(Exception e)
 		{
 			e.printStackTrace();

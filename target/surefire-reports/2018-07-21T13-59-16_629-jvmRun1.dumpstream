@@ -1,0 +1,1678 @@
+# Created at 2018-07-21T14:02:21.711
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2018-07-21T14:02:26.106
+Unexpected IOException with stream: Before navigating to: 'http://www.qaclickacademy.com/'
+
+
+# Created at 2018-07-21T14:02:26.121
+Unexpected IOException with stream: Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 1ba8e14a611babb7c39a6ff0eb77028e
+
+
+# Created at 2018-07-21T14:02:26.190
+Unexpected IOException: 8,1,com.qaclickacademy.tests.LoginTest,setup(com.qaclickacademy.tests.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 1ba8e14a611babb7c39a6ff0eb77028e,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 1ba8e14a611babb7c39a6ff0eb77028e,LoginTest.setup:26->BaseTest.initialize:70 \00BB NoSuchWindow no such window: targ...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 1ba8e14a611babb7c39a6ff0eb77028e\000A\0009at com.qaclickacademy.tests.LoginTest.setup(LoginTest.java:26)\000A
+
+
+# Created at 2018-07-21T14:02:26.195
+Unexpected IOException: 9,1,com.qaclickacademy.tests.LoginTest,InvalidLoginTest(com.qaclickacademy.tests.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 1ba8e14a611babb7c39a6ff0eb77028e,null
+
+
+# Created at 2018-07-21T14:02:26.198
+Unexpected IOException: 9,1,com.qaclickacademy.tests.LoginTest,terDown(com.qaclickacademy.tests.LoginTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:27.895
+Unexpected IOException with stream: S
+
+# Created at 2018-07-21T14:02:27.896
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:27.897
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:27.898
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:27.899
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:27.899
+Unexpected IOException with stream: i
+
+# Created at 2018-07-21T14:02:27.900
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:27.901
+Unexpected IOException with stream: g
+
+# Created at 2018-07-21T14:02:27.901
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.901
+Unexpected IOException with stream: C
+
+# Created at 2018-07-21T14:02:27.902
+Unexpected IOException with stream: h
+
+# Created at 2018-07-21T14:02:27.902
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:27.903
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:27.903
+Unexpected IOException with stream: m
+
+# Created at 2018-07-21T14:02:27.904
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.904
+Unexpected IOException with stream: D
+
+# Created at 2018-07-21T14:02:27.905
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:27.905
+Unexpected IOException with stream: i
+
+# Created at 2018-07-21T14:02:27.906
+Unexpected IOException with stream: v
+
+# Created at 2018-07-21T14:02:27.906
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.907
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:27.907
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.908
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:27.908
+Unexpected IOException with stream: .
+
+# Created at 2018-07-21T14:02:27.909
+Unexpected IOException with stream: 3
+
+# Created at 2018-07-21T14:02:27.909
+Unexpected IOException with stream: 6
+
+# Created at 2018-07-21T14:02:27.910
+Unexpected IOException with stream: .
+
+# Created at 2018-07-21T14:02:27.910
+Unexpected IOException with stream: 5
+
+# Created at 2018-07-21T14:02:27.911
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:27.911
+Unexpected IOException with stream: 0
+
+# Created at 2018-07-21T14:02:27.912
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:27.913
+Unexpected IOException with stream: 7
+
+# Created at 2018-07-21T14:02:27.913
+Unexpected IOException with stream: 0
+
+# Created at 2018-07-21T14:02:27.914
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.914
+Unexpected IOException with stream: (
+
+# Created at 2018-07-21T14:02:27.915
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.915
+Unexpected IOException with stream: 5
+
+# Created at 2018-07-21T14:02:27.916
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:27.916
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:27.917
+Unexpected IOException with stream: d
+
+# Created at 2018-07-21T14:02:27.917
+Unexpected IOException with stream: 0
+
+# Created at 2018-07-21T14:02:27.917
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:27.918
+Unexpected IOException with stream: 6
+
+# Created at 2018-07-21T14:02:27.918
+Unexpected IOException with stream: 9
+
+# Created at 2018-07-21T14:02:27.919
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:27.919
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:27.920
+Unexpected IOException with stream: 7
+
+# Created at 2018-07-21T14:02:27.920
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.921
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:27.921
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.922
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:27.922
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:27.923
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:27.923
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:27.924
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:27.924
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:27.925
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:27.925
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:27.926
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:27.926
+Unexpected IOException with stream: 7
+
+# Created at 2018-07-21T14:02:27.927
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:27.927
+Unexpected IOException with stream: d
+
+# Created at 2018-07-21T14:02:27.928
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:27.928
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.929
+Unexpected IOException with stream: f
+
+# Created at 2018-07-21T14:02:27.929
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:27.929
+Unexpected IOException with stream: f
+
+# Created at 2018-07-21T14:02:27.930
+Unexpected IOException with stream: 9
+
+# Created at 2018-07-21T14:02:27.930
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:27.931
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:27.931
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:27.932
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:27.932
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:27.933
+Unexpected IOException with stream: 9
+
+# Created at 2018-07-21T14:02:27.933
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:27.933
+Unexpected IOException with stream: )
+
+# Created at 2018-07-21T14:02:27.934
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.934
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:27.935
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:27.935
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.936
+Unexpected IOException with stream: p
+
+# Created at 2018-07-21T14:02:27.936
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:27.936
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:27.937
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:27.937
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.938
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:27.938
+Unexpected IOException with stream: 7
+
+# Created at 2018-07-21T14:02:27.939
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:27.939
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:27.939
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:27.940
+Unexpected IOException with stream: 
+
+# Created at 2018-07-21T14:02:27.941
+Unexpected IOException with stream: 
+
+
+# Created at 2018-07-21T14:02:27.941
+Unexpected IOException with stream: O
+
+# Created at 2018-07-21T14:02:27.942
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:27.943
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:27.943
+Unexpected IOException with stream: y
+
+# Created at 2018-07-21T14:02:27.943
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.944
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:27.944
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:27.945
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:27.945
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:27.946
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:27.946
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.946
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:27.947
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:27.947
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:27.948
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:27.948
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.949
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:27.950
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:27.951
+Unexpected IOException with stream: i
+
+# Created at 2018-07-21T14:02:27.951
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:27.952
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:27.953
+Unexpected IOException with stream: s
+
+# Created at 2018-07-21T14:02:27.954
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.955
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:27.955
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:27.956
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.958
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:27.958
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:27.959
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:27.960
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:27.961
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:27.962
+Unexpected IOException with stream: w
+
+# Created at 2018-07-21T14:02:27.963
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:27.963
+Unexpected IOException with stream: d
+
+# Created at 2018-07-21T14:02:27.964
+Unexpected IOException with stream: .
+
+# Created at 2018-07-21T14:02:27.965
+Unexpected IOException with stream: 
+
+# Created at 2018-07-21T14:02:27.965
+Unexpected IOException with stream: 
+
+
+# Created at 2018-07-21T14:02:29.963
+Unexpected IOException with stream: Jul 21, 2018 2:02:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2018-07-21T14:02:30.824
+Unexpected IOException with stream: [
+
+# Created at 2018-07-21T14:02:30.826
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:30.828
+Unexpected IOException with stream: 5
+
+# Created at 2018-07-21T14:02:30.829
+Unexpected IOException with stream: 3
+
+# Created at 2018-07-21T14:02:30.830
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:30.830
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:30.831
+Unexpected IOException with stream: 6
+
+# Created at 2018-07-21T14:02:30.832
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:30.833
+Unexpected IOException with stream: 9
+
+# Created at 2018-07-21T14:02:30.834
+Unexpected IOException with stream: 5
+
+# Created at 2018-07-21T14:02:30.835
+Unexpected IOException with stream: 0
+
+# Created at 2018-07-21T14:02:30.835
+Unexpected IOException with stream: .
+
+# Created at 2018-07-21T14:02:30.836
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:30.838
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:30.840
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:30.841
+Unexpected IOException with stream: ]
+
+# Created at 2018-07-21T14:02:30.848
+Unexpected IOException with stream: [
+
+# Created at 2018-07-21T14:02:30.849
+Unexpected IOException with stream: S
+
+# Created at 2018-07-21T14:02:30.850
+Unexpected IOException with stream: E
+
+# Created at 2018-07-21T14:02:30.851
+Unexpected IOException with stream: V
+
+# Created at 2018-07-21T14:02:30.853
+Unexpected IOException with stream: E
+
+# Created at 2018-07-21T14:02:30.854
+Unexpected IOException with stream: R
+
+# Created at 2018-07-21T14:02:30.854
+Unexpected IOException with stream: E
+
+# Created at 2018-07-21T14:02:30.856
+Unexpected IOException with stream: ]
+
+# Created at 2018-07-21T14:02:30.858
+Unexpected IOException with stream: :
+
+# Created at 2018-07-21T14:02:30.860
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:30.862
+Unexpected IOException with stream: U
+
+# Created at 2018-07-21T14:02:30.863
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:30.863
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:30.864
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:30.865
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:30.866
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.871
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:30.872
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:30.874
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:30.875
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:30.876
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:30.878
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.879
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:30.880
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.880
+Unexpected IOException with stream: i
+
+# Created at 2018-07-21T14:02:30.881
+Unexpected IOException with stream: v
+
+# Created at 2018-07-21T14:02:30.882
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.882
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:30.883
+Unexpected IOException with stream: m
+
+# Created at 2018-07-21T14:02:30.884
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.884
+Unexpected IOException with stream: s
+
+# Created at 2018-07-21T14:02:30.885
+Unexpected IOException with stream: s
+
+# Created at 2018-07-21T14:02:30.886
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:30.887
+Unexpected IOException with stream: g
+
+# Created at 2018-07-21T14:02:30.888
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.889
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:30.889
+Unexpected IOException with stream: f
+
+# Created at 2018-07-21T14:02:30.890
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:30.891
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:30.892
+Unexpected IOException with stream: m
+
+# Created at 2018-07-21T14:02:30.894
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:30.895
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:30.896
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.896
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:30.897
+Unexpected IOException with stream: d
+
+# Created at 2018-07-21T14:02:30.898
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.899
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:30.899
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:30.900
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:30.901
+Unexpected IOException with stream: 
+
+# Created at 2018-07-21T14:02:30.902
+Unexpected IOException with stream: 
+
+
+# Created at 2018-07-21T14:02:36.932
+Unexpected IOException with stream: Before navigating to: 'http://www.qaclickacademy.com/'
+
+
+# Created at 2018-07-21T14:02:36.946
+Unexpected IOException with stream: Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 7ed39c445437144a14ac210a76bbdad7
+
+
+# Created at 2018-07-21T14:02:36.953
+Unexpected IOException: 8,1,com.qaclickacademy.tests.PracticeTest,setup(com.qaclickacademy.tests.PracticeTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 7ed39c445437144a14ac210a76bbdad7,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 7ed39c445437144a14ac210a76bbdad7,PracticeTest.setup:29->BaseTest.initialize:70 \00BB NoSuchWindow no such window: t...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 7ed39c445437144a14ac210a76bbdad7\000A\0009at com.qaclickacademy.tests.PracticeTest.setup(PracticeTest.java:29)\000A
+
+
+# Created at 2018-07-21T14:02:36.956
+Unexpected IOException: 9,1,com.qaclickacademy.tests.PracticeTest,enterinfoTest(com.qaclickacademy.tests.PracticeTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 7ed39c445437144a14ac210a76bbdad7,null
+
+
+# Created at 2018-07-21T14:02:36.960
+Unexpected IOException: 9,1,com.qaclickacademy.tests.PracticeTest,tearDown(com.qaclickacademy.tests.PracticeTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:36.963
+Unexpected IOException: 9,1,com.qaclickacademy.tests.PracticeTest,setup(com.qaclickacademy.tests.PracticeTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:36.965
+Unexpected IOException: 9,1,com.qaclickacademy.tests.PracticeTest,enterinfoTest(com.qaclickacademy.tests.PracticeTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 7ed39c445437144a14ac210a76bbdad7,null
+
+
+# Created at 2018-07-21T14:02:36.968
+Unexpected IOException: 9,1,com.qaclickacademy.tests.PracticeTest,tearDown(com.qaclickacademy.tests.PracticeTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:36.970
+Unexpected IOException: 9,1,com.qaclickacademy.tests.PracticeTest,setup(com.qaclickacademy.tests.PracticeTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:36.972
+Unexpected IOException: 9,1,com.qaclickacademy.tests.PracticeTest,enterinfoTest(com.qaclickacademy.tests.PracticeTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: 7ed39c445437144a14ac210a76bbdad7,null
+
+
+# Created at 2018-07-21T14:02:36.973
+Unexpected IOException: 9,1,com.qaclickacademy.tests.PracticeTest,tearDown(com.qaclickacademy.tests.PracticeTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:37.240
+Unexpected IOException with stream: S
+
+# Created at 2018-07-21T14:02:37.241
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:37.242
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:37.243
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:37.244
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:37.245
+Unexpected IOException with stream: i
+
+# Created at 2018-07-21T14:02:37.246
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:37.247
+Unexpected IOException with stream: g
+
+# Created at 2018-07-21T14:02:37.248
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.249
+Unexpected IOException with stream: C
+
+# Created at 2018-07-21T14:02:37.250
+Unexpected IOException with stream: h
+
+# Created at 2018-07-21T14:02:37.251
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:37.252
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:37.253
+Unexpected IOException with stream: m
+
+# Created at 2018-07-21T14:02:37.253
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.254
+Unexpected IOException with stream: D
+
+# Created at 2018-07-21T14:02:37.255
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:37.256
+Unexpected IOException with stream: i
+
+# Created at 2018-07-21T14:02:37.257
+Unexpected IOException with stream: v
+
+# Created at 2018-07-21T14:02:37.258
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.258
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:37.259
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.260
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:37.261
+Unexpected IOException with stream: .
+
+# Created at 2018-07-21T14:02:37.262
+Unexpected IOException with stream: 3
+
+# Created at 2018-07-21T14:02:37.263
+Unexpected IOException with stream: 6
+
+# Created at 2018-07-21T14:02:37.263
+Unexpected IOException with stream: .
+
+# Created at 2018-07-21T14:02:37.264
+Unexpected IOException with stream: 5
+
+# Created at 2018-07-21T14:02:37.265
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:37.266
+Unexpected IOException with stream: 0
+
+# Created at 2018-07-21T14:02:37.267
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:37.268
+Unexpected IOException with stream: 7
+
+# Created at 2018-07-21T14:02:37.269
+Unexpected IOException with stream: 0
+
+# Created at 2018-07-21T14:02:37.270
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.270
+Unexpected IOException with stream: (
+
+# Created at 2018-07-21T14:02:37.271
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.271
+Unexpected IOException with stream: 5
+
+# Created at 2018-07-21T14:02:37.272
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:37.273
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:37.273
+Unexpected IOException with stream: d
+
+# Created at 2018-07-21T14:02:37.274
+Unexpected IOException with stream: 0
+
+# Created at 2018-07-21T14:02:37.274
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:37.275
+Unexpected IOException with stream: 6
+
+# Created at 2018-07-21T14:02:37.275
+Unexpected IOException with stream: 9
+
+# Created at 2018-07-21T14:02:37.276
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:37.276
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:37.277
+Unexpected IOException with stream: 7
+
+# Created at 2018-07-21T14:02:37.278
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.279
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:37.279
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.280
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:37.280
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:37.281
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:37.281
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:37.282
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:37.282
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:37.283
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:37.284
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:37.284
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:37.285
+Unexpected IOException with stream: 7
+
+# Created at 2018-07-21T14:02:37.285
+Unexpected IOException with stream: 2
+
+# Created at 2018-07-21T14:02:37.285
+Unexpected IOException with stream: d
+
+# Created at 2018-07-21T14:02:37.286
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:37.286
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.287
+Unexpected IOException with stream: f
+
+# Created at 2018-07-21T14:02:37.287
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:37.288
+Unexpected IOException with stream: f
+
+# Created at 2018-07-21T14:02:37.288
+Unexpected IOException with stream: 9
+
+# Created at 2018-07-21T14:02:37.289
+Unexpected IOException with stream: b
+
+# Created at 2018-07-21T14:02:37.289
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:37.289
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:37.290
+Unexpected IOException with stream: 8
+
+# Created at 2018-07-21T14:02:37.290
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:37.291
+Unexpected IOException with stream: 9
+
+# Created at 2018-07-21T14:02:37.291
+Unexpected IOException with stream: 1
+
+# Created at 2018-07-21T14:02:37.292
+Unexpected IOException with stream: )
+
+# Created at 2018-07-21T14:02:37.292
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.292
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:37.293
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:37.293
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.294
+Unexpected IOException with stream: p
+
+# Created at 2018-07-21T14:02:37.294
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:37.294
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:37.295
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:37.295
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.296
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:37.296
+Unexpected IOException with stream: 6
+
+# Created at 2018-07-21T14:02:37.297
+Unexpected IOException with stream: 4
+
+# Created at 2018-07-21T14:02:37.297
+Unexpected IOException with stream: 5
+
+# Created at 2018-07-21T14:02:37.297
+Unexpected IOException with stream: 0
+
+# Created at 2018-07-21T14:02:37.298
+Unexpected IOException with stream: 
+
+# Created at 2018-07-21T14:02:37.298
+Unexpected IOException with stream: 
+
+
+# Created at 2018-07-21T14:02:37.299
+Unexpected IOException with stream: O
+
+# Created at 2018-07-21T14:02:37.299
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:37.299
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:37.300
+Unexpected IOException with stream: y
+
+# Created at 2018-07-21T14:02:37.301
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.301
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:37.301
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:37.302
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:37.302
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:37.303
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:37.303
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.304
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:37.304
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:37.305
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:37.305
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:37.306
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.306
+Unexpected IOException with stream: c
+
+# Created at 2018-07-21T14:02:37.307
+Unexpected IOException with stream: t
+
+# Created at 2018-07-21T14:02:37.308
+Unexpected IOException with stream: i
+
+# Created at 2018-07-21T14:02:37.308
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:37.309
+Unexpected IOException with stream: n
+
+# Created at 2018-07-21T14:02:37.309
+Unexpected IOException with stream: s
+
+# Created at 2018-07-21T14:02:37.310
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.310
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:37.311
+Unexpected IOException with stream: r
+
+# Created at 2018-07-21T14:02:37.311
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.312
+Unexpected IOException with stream:  
+
+# Created at 2018-07-21T14:02:37.312
+Unexpected IOException with stream: a
+
+# Created at 2018-07-21T14:02:37.313
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:37.313
+Unexpected IOException with stream: l
+
+# Created at 2018-07-21T14:02:37.314
+Unexpected IOException with stream: o
+
+# Created at 2018-07-21T14:02:37.314
+Unexpected IOException with stream: w
+
+# Created at 2018-07-21T14:02:37.315
+Unexpected IOException with stream: e
+
+# Created at 2018-07-21T14:02:37.315
+Unexpected IOException with stream: d
+
+# Created at 2018-07-21T14:02:37.316
+Unexpected IOException with stream: .
+
+# Created at 2018-07-21T14:02:37.316
+Unexpected IOException with stream: 
+
+# Created at 2018-07-21T14:02:37.317
+Unexpected IOException with stream: 
+
+
+# Created at 2018-07-21T14:02:39.228
+Unexpected IOException with stream: Jul 21, 2018 2:02:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2018-07-21T14:02:46.388
+Unexpected IOException with stream: Before navigating to: 'http://www.qaclickacademy.com/'
+
+
+# Created at 2018-07-21T14:02:46.402
+Unexpected IOException with stream: Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: b717ec10293ae00473abeb8a7af3549d
+
+
+# Created at 2018-07-21T14:02:46.409
+Unexpected IOException: 8,1,com.qaclickacademy.tests.HomeTest,setup(com.qaclickacademy.tests.HomeTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: b717ec10293ae00473abeb8a7af3549d,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: b717ec10293ae00473abeb8a7af3549d,HomeTest.setup:29->BaseTest.initialize:70 \00BB NoSuchWindow no such window: targe...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: b717ec10293ae00473abeb8a7af3549d\000A\0009at com.qaclickacademy.tests.HomeTest.setup(HomeTest.java:29)\000A
+
+
+# Created at 2018-07-21T14:02:46.412
+Unexpected IOException: 9,1,com.qaclickacademy.tests.HomeTest,clickLoginbtnTest(com.qaclickacademy.tests.HomeTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: b717ec10293ae00473abeb8a7af3549d,null
+
+
+# Created at 2018-07-21T14:02:46.415
+Unexpected IOException: 9,1,com.qaclickacademy.tests.HomeTest,teardown(com.qaclickacademy.tests.HomeTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:46.418
+Unexpected IOException: 9,1,com.qaclickacademy.tests.HomeTest,setup(com.qaclickacademy.tests.HomeTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:46.420
+Unexpected IOException: 9,1,com.qaclickacademy.tests.HomeTest,clickPracticeLinkTest(com.qaclickacademy.tests.HomeTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=66.0.3359.139)\000A  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)\002Cplatform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'MYDELLLAPTOP'\002C ip: '192.168.43.83'\002C os.name: 'Windows 8'\002C os.arch: 'amd64'\002C os.version: '6.2'\002C java.version: '1.8.0_112'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb...\002C userDataDir: C:\005CUsers\005CNilesh\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 66.0.3359.139\002C webStorageEnabled: true}\000ASession ID: b717ec10293ae00473abeb8a7af3549d,null
+
+
+# Created at 2018-07-21T14:02:46.421
+Unexpected IOException: 9,1,com.qaclickacademy.tests.HomeTest,teardown(com.qaclickacademy.tests.HomeTest),null,null,null
+
+
+# Created at 2018-07-21T14:02:47.151
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 7ed39c445437144a14ac210a76bbdad7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+	at com.qaclickacademy.baseclass.BaseTest.initialize(BaseTest.java:70)
+	at com.qaclickacademy.tests.PracticeTest.setup(PracticeTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+
+# Created at 2018-07-21T14:02:47.155
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: b717ec10293ae00473abeb8a7af3549d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+	at com.qaclickacademy.baseclass.BaseTest.initialize(BaseTest.java:70)
+	at com.qaclickacademy.tests.HomeTest.setup(HomeTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+
+# Created at 2018-07-21T14:02:47.157
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 58371c5a47f433317767d7104b452e5a
+*** Element info: {Using=xpath, value=//*[@id='homepage']/div[5]/div[2]/div/div/div/span/div/div[6]/div/div/button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qaclickacademy.pages.Homepage.clickNoThanksbtn(Homepage.java:33)
+	at com.qaclickacademy.tests.LoginTest.InvalidLoginTest(LoginTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+
+# Created at 2018-07-21T14:02:47.159
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: b717ec10293ae00473abeb8a7af3549d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+	at com.qaclickacademy.baseclass.BaseTest.initialize(BaseTest.java:70)
+	at com.qaclickacademy.tests.HomeTest.setup(HomeTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+
+# Created at 2018-07-21T14:02:47.161
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='homepage']/div[5]/div[2]/div/div/div/span/div/div[6]/div/div/button"}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: b150664383586e75190587e99873aa24
+*** Element info: {Using=xpath, value=//*[@id='homepage']/div[5]/div[2]/div/div/div/span/div/div[6]/div/div/button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qaclickacademy.pages.Homepage.clickNoThanksbtn(Homepage.java:33)
+	at com.qaclickacademy.tests.LoginTest.InvalidLoginTest(LoginTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+
+# Created at 2018-07-21T14:02:47.163
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 7ed39c445437144a14ac210a76bbdad7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+	at com.qaclickacademy.baseclass.BaseTest.initialize(BaseTest.java:70)
+	at com.qaclickacademy.tests.PracticeTest.setup(PracticeTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+
+# Created at 2018-07-21T14:02:47.165
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 1ba8e14a611babb7c39a6ff0eb77028e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+	at com.qaclickacademy.baseclass.BaseTest.initialize(BaseTest.java:70)
+	at com.qaclickacademy.tests.LoginTest.setup(LoginTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+
+# Created at 2018-07-21T14:02:47.167
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MYDELLLAPTOP', ip: '192.168.43.83', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Nilesh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 7ed39c445437144a14ac210a76bbdad7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+	at com.qaclickacademy.baseclass.BaseTest.initialize(BaseTest.java:70)
+	at com.qaclickacademy.tests.PracticeTest.setup(PracticeTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+
+# Created at 2018-07-21T14:02:47.560
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

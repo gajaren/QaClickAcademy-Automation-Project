@@ -2,6 +2,7 @@ package com.qaclickacademy.tests;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -41,9 +42,9 @@ public class PracticeTest extends BaseTest{
 	@Test(dataProvider="setTestData")
 	public void enterinfoTest(String country,String name,String showhide)
 	{
-		practicepage.enterCountryName(country);
-		practicepage.enterCustName(name);
-		practicepage.enterShowHide(showhide);
+		Assert.assertTrue(practicepage.enterCountryName(country).length()>0);
+		Assert.assertTrue(practicepage.enterCustName(name).length()>0);
+		Assert.assertTrue(practicepage.enterShowHide(showhide).length()>0);
 	}
 	
 	@AfterMethod

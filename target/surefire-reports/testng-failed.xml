@@ -8,6 +8,13 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
+      <class name="com.qaclickacademy.tests.PracticeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="enterinfoTest"/>
+        </methods>
+      </class> <!-- com.qaclickacademy.tests.PracticeTest -->
       <class name="com.qaclickacademy.tests.LoginTest">
         <methods>
           <include name="InvalidLoginTest"/>
@@ -15,6 +22,14 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.qaclickacademy.tests.LoginTest -->
+      <class name="com.qaclickacademy.tests.HomeTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="clickLoginbtnTest"/>
+          <include name="setup"/>
+          <include name="clickPracticeLinkTest"/>
+        </methods>
+      </class> <!-- com.qaclickacademy.tests.HomeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
