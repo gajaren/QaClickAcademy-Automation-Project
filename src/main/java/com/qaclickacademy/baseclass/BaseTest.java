@@ -15,7 +15,7 @@ import org.testng.log4testng.Logger;
 import com.qaclickacademy.utility.Utilities;
 import com.qaclickacademy.utility.WebEventListener;
 
-public class BaseTest {
+public class BaseTest{
 	
 	public static WebDriver driver;
 	public static Properties prop;
@@ -27,7 +27,7 @@ public class BaseTest {
 	{
 		try {
 			prop=new Properties();
-			FileInputStream fs=new FileInputStream(System.getProperty("user.home") + "/workspace/QAClickAcademy/src/main/java/com/qaclickacademy/config/config.properties");
+			FileInputStream fs=new FileInputStream(System.getProperty("user.home") + "/EclipseProject/QaClickAcademy-Automation-Project//src/main/java/com/qaclickacademy/config/config.properties");
 			prop.load(fs);
 		} catch (FileNotFoundException e) {
 			System.out.println("Config.properties file is NOT found");
@@ -43,8 +43,8 @@ public class BaseTest {
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome"))
 		{
 			//log.info("Launching CHORME BOWSER");
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.home") + "\\workspace\\QAClickAcademy\\src\\main\\java\\com\\"
-			+"qaclickacademy\\config\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.home") + "/EclipseProject/QaClickAcademy-Automation-Project/src/main/java/com/"
+			+"qaclickacademy/config/chromedriver");
 			driver=new ChromeDriver();
 		}
 		else if(prop.getProperty("browser").equalsIgnoreCase("firefox")) 

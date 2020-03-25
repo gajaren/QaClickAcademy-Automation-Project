@@ -1,0 +1,6 @@
+*.class
+*.js
+*.css
+*.html
+target/
+test-output/

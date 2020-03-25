@@ -17,8 +17,8 @@ public class Utilities {
 	public static long IMPLICIT_WAIT=20;
 	public static XSSFWorkbook workbook;
 	public static XSSFSheet sheet;
-	public static String path=System.getProperty("user.home") + "\\workspace\\QAClickAcademy\\src\\main\\"
-			+ "java\\com\\qaclickacademy\\testdata\\TestData.xlsx";
+	public static String path=System.getProperty("user.home") + "/EclipseProject/QaClickAcademy-Automation-Project/src/main/"
+			+ "java/com/qaclickacademy/testdata/TestData.xlsx";
 	public static String dateTime = new SimpleDateFormat("yyyymmddhhmmss").format(new Date());
 	
 	
